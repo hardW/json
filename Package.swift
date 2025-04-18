@@ -14,8 +14,8 @@ let package = Package(
     targets: [
         .target(
             name: "json",
-            path: "single_include/nlohmann",
-            publicHeadersPath: "."
+            path: "single_include",
+            publicHeadersPath: "nlohmann"
         )
     ],
     cxxLanguageStandard: .cxx11
